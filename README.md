@@ -13,9 +13,6 @@
   <img alt="Github language count" src="https://img.shields.io/github/languages/count/{{github}}/{{repository}}?color=56BEB8">
   <img alt="Repository size" src="https://img.shields.io/github/repo-size/{{github}}/{{repository}}?color=56BEB8">
   <img alt="License" src="https://img.shields.io/github/license/{{github}}/{{repository}}?color=56BEB8">
-  <!-- <img alt="Github issues" src="https://img.shields.io/github/issues/{{github}}/{{repository}}?color=56BEB8" /> -->
-  <!-- <img alt="Github forks" src="https://img.shields.io/github/forks/{{github}}/{{repository}}?color=56BEB8" /> -->
-  <!-- <img alt="Github stars" src="https://img.shields.io/github/stars/{{github}}/{{repository}}?color=56BEB8" /> -->
 </p>
 
 <!-- Status -->
@@ -32,7 +29,6 @@
   <a href="#rocket-technologies">Technologies</a> &#xa0; | &#xa0;
   <a href="#white_check_mark-requirements">Requirements</a> &#xa0; | &#xa0;
   <a href="#checkered_flag-starting">Starting</a> &#xa0; | &#xa0;
-  <a href="#memo-license">License</a> &#xa0; | &#xa0;
   <a href="https://github.com/{{github}}" target="_blank">Author</a>
 </p>
 
@@ -40,23 +36,21 @@
 
 ## :dart: About ##
 
-Describe your project
+Projek ini merupakan cara Deploy Machine Learning yang sudah dilatih menggunakan Google Colab dan Flask
 
 ## :sparkles: Features ##
 
-:heavy_check_mark: Feature 1;\
-:heavy_check_mark: Feature 2;\
-:heavy_check_mark: Feature 3;
+:heavy_check_mark: Isi Data;\
+:heavy_check_mark: Melakukan Prediksi Data;\
+:heavy_check_mark: Mengetahui Cluster dan Memberi Rekomendasi Berdasarkan Cluster dari Data yang Diprediksi;
 
 ## :rocket: Technologies ##
 
 The following tools were used in this project:
 
-- [Expo](https://expo.io/)
-- [Node.js](https://nodejs.org/en/)
-- [React](https://pt-br.reactjs.org/)
-- [React Native](https://reactnative.dev/)
-- [TypeScript](https://www.typescriptlang.org/)
+- [Google Colab](https://colab.research.google.com/)
+- [Flask](https://flask.palletsprojects.com/en/stable/installation/)
+- [pip](https://pypi.org/project/pip/)
 
 ## :white_check_mark: Requirements ##
 
@@ -340,7 +334,7 @@ Akses aplikasi Anda di browser dengan membuka Akses aplikasi Anda di browser den
 ![step6](assets/step6.png)
 
 
-### Info : jika terdapat error saat menjalankan aplikasi, maka lakukan instalasi dependencies jika error yang terjadi karena belum adanya dependency yang terinstal, misalnya panda, numpy, dan lainnya.
+### Info : jika terdapat error saat menjalankan aplikasi, maka lakukan instalasi library/module jika error yang terjadi karena belum adanya module yang terinstal, misalnya panda, numpy, dan lainnya.
 
 Contoh error jika module pandas belum terinstal :
 ![step6.1](assets/step6.1.png)
