@@ -73,8 +73,10 @@ $ pip --version
 atau 
 $ pip3 --version
 
-Info : Jika tidak memiliki Python atau pip terinstal, maka instal terlebih dahulu dengan mengunduh [Python] (https://www.python.org/downloads/) dari situs resmi.
+Info : Jika tidak memiliki Python atau pip terinstal, maka instal terlebih dahulu dengan mengunduh [Python](https://www.python.org/downloads/) dari situs resmi.
 ```
+
+![step0](assets/step0.png)
 
 ## :checkered_flag: Step 2 ##
 Sangat disarankan untuk menggunakan virtual environment untuk proyek Python Anda agar dependensi proyek tidak bercampur dengan proyek lain. Anda dapat membuat virtual environment dengan perintah berikut:
