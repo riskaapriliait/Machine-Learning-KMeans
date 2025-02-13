@@ -51,6 +51,7 @@ The following tools were used in this project:
 - [Google Colab](https://colab.research.google.com/)
 - [Flask](https://flask.palletsprojects.com/en/stable/installation/)
 - [pip](https://pypi.org/project/pip/)
+- [Python](https://www.python.org/downloads/)
 
 ## :white_check_mark: Requirements ##
 
