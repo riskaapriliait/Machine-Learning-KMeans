@@ -63,7 +63,7 @@ The following tools were used in this project:
 Before starting :checkered_flag:, you need to have :
 - python
 - pip
-- directory python (numpy, etc)
+- library python (numpy, etc)
 
 ## :checkered_flag: Step 1 ##
 ```bash
