@@ -29,7 +29,7 @@
   <a href="#rocket-technologies">Technologies</a> &#xa0; | &#xa0;
   <a href="#white_check_mark-requirements">Requirements</a> &#xa0; | &#xa0;
   <a href="#checkered_flag-starting">Starting</a> &#xa0; | &#xa0;
-  <a href="https://github.com/{{github}}" target="_blank">Author</a>
+  <a href="https://github.com/riskaapriliait" target="_blank">Author</a>
 </p>
 
 <br>
@@ -59,6 +59,7 @@ Before starting :checkered_flag:, you need to have :
 - pip
 - library python (numpy, etc)
 
+## :checkered_flag: Starting ##
 ## :checkered_flag: Step 1 ##
 ```bash
 # Buka Terminal dan cek versi Python dan pip
