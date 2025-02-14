@@ -79,6 +79,38 @@ Info : Jika tidak memiliki Python atau pip terinstal, maka instal terlebih dahul
 
 ![step0](assets/step0.png)
 
+Pastikan versi pip 25.0.1 agar saat instal Flask tidak terjadi Error.
+Jika versi pip masih 24.2 maka akan terjadi permintaan update ke versi 25.0.1
+
+![step0.1](assets/step0.1.png)
+
+Jika error seperti di atas lakukan update seperti berikut (proses ini diketahui saat instal Flask dengan pip masih version 24.2:
+
+```bash
+python.exe -m pip install --upgrade pip
+```
+
+jika Flask, pip sudah berhasil terinstal dengan baik, saat menjalankan perintah `python app.py` menemui error module numpy, maka instal terlebih dahulu :
+```bash
+pip install numpy
+```
+![step0.2](assets/step0.2.png)
+
+dan jika setelah numpy terinstal dan menjalankan kembali perintah `python app.py`, maka error modul sklearn, maka instal module terlebih dahulu :
+```bash
+pip install Flask scikit-learn 
+```
+![step0.3](assets/step0.3.png)
+
+![step0.4](assets/step0.4.png)
+
+Jika sudah coba kembali menjalankan perintah `python app.py`, maka jika muncul link akses browser maka selamat telah berhasil menjalankan aplikasi Flask Anda.
+![step0.5](assets/step0.5.png)
+![step0.6](assets/step0.6.png)
+
+Anda dapat melewati <a href="#checkered_flag-starting">Step 5</a> &#xa0; | &#xa0; hanya dengan mengunduh file directory `ml_web_app` yang telah tersedia pada postingan dan menyimpannya ke dalam virtual environment atau folder aplikasi Flask yang sudah Anda buat, namun jika Anda ingin mencoba secara manual, ikuti step awal hingga step terakhir. Terima Kasih.
+
+
 ## :checkered_flag: Step 2 ##
 Sangat disarankan untuk menggunakan virtual environment untuk proyek Python Anda agar dependensi proyek tidak bercampur dengan proyek lain. Anda dapat membuat virtual environment dengan perintah berikut:
 
